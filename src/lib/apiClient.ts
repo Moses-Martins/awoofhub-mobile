@@ -4,7 +4,7 @@ import { refreshTokenService } from "../services/auth-service";
 import { notificationsStore } from "../store/notifications/notifications";
 
 export const apiClient = axios.create({
-    baseURL: `${API_URL}/api`,
+    baseURL: `${API_URL}/v1`,
     headers: {
         'Content-Type': 'application/json',
     },
